@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDIYA COFFEE</title>
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top_menu">
+      <ul class="l_menu">
+        <li class="on"><a href="#">브랜드 사이트</a></li>
+        <li><a href="#">기업 사이트</a></li>
+        <li><a href="#">창업안내</a></li>
+        <li><a href="#">채용안내</a></li>  
+      </ul>
+
+      <ul class="r_menu">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">매장찾기</a></li>
+        <li><a href="#">고객의 소리</a></li>
+        <li><a href="#">이디야 스토어</a></li>
+        <li id="no-line"><a href="#">모바일상품권 스토어</a></li>
+        <a href="#"><img src="img/top_sns01.png" alt="blog"></a>
+        <a href="#"><img src="img/top_sns02.png" alt="instagram"></a>
+        <a href="#"><img src="img/top_sns03.png" alt="facebook"></a>
+        <a href="#"><img src="img/top_sns04.png" alt="play"></a>
+        <input type="search"  id="search">
+        <a class="search_btn" href="#"></a>
+      </ul>
+    </div>
+
+    <h1 class="logo"><a href="#"><img src="img/logo.png" alt="EDIYA"></a></h1>
+
+    <h2 class="nav_btn">
+      <a href="#"><img src="img/m_nav_btn.gif" alt="nav_btn"></a>
+    </h2>
+
+    <div id="m_gnb_on_modal">
+
+    <div class="m_gnb_on">
+
+      <div class="nav_close">
+        <a href="#c">
+          <img src="img/m_nav_close.png" alt="close_btn">
+        </a>
+      </div>
+
+      <div class="nav_wrap">
+        <div class="m_top_menu">
+          <ul class="m_r_menu">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">고객의 소리</a></li>
+            <li><a href="#">이디야 스토어</a></li>
+            <li id="no-line"><a href="#">모바일상품권 스토어</a>
+            </li>
+            
+          </ul>
+          <div class="m_sns">
+            <a href="#"><img src="img/m_top_sns01.gif" alt="blog"></a>
+            <a href="#"><img src="img/m_top_sns02.gif" alt="instagram"></a>
+            <a href="#"><img src="img/m_top_sns03.gif" alt="facebook"></a>
+            <a href="#"><img src="img/m_top_sns04.gif" alt="play"></a>
+          </div>
+        </div>
+
+        <div id="m_nav">
+          <ul class="m_gnb">
+            <li>
+              <a href="#">원두</a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">이디야 블렌드</a></li>
+                <li><a href="#">품질</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">메뉴</a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">음료</a></li>
+                <li><a href="#">푸드</a></li>
+                <li><a href="#">MD</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">유통제품</a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">스틱커피</a></li>
+                <li><a href="#">커피믹스</a></li>
+                <li><a href="#">원두커피</a></li>
+                <li><a href="#">RTD커피</a></li>
+                <li><a href="#">스틱 파우더</a></li>
+                <li><a href="#">수출입거래</a></li>
+                <li><a href="#">B2B/특판/대리점 거래</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">이디야멤버스</a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">멤버십안내</a></li>
+                <li><a href="#">서비스안내</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">상품권·제휴카드</a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">제휴카드(하나·신한)</a></li>
+                <li><a href="#">기프트카드</a></li>
+                <li><a href="#">모바일상품권</a></li>
+                <li><a href="#">단체·기업 구매</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">브랜드 소식 </a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이벤트 안내</a></li>
+                <li><a href="#">사회공헌 활동</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">고객 지원 </a><span class="m_arow"></span>
+              <ul class="m_sub">
+                <li><a href="#">고객의 소리</a></li>
+                <li><a href="#">소비자중심경영(CCM)</a></li>
+                <li><a href="#">제휴·제안</a></li>
+              </ul>
+            </li>
+
+            <li class="find_shop"><a href="#">매장찾기</a></li>
+
+          </ul>
+
+          <div class="m_search_bar">
+            <input type="search"  id="m_search">
+            <a class="m_search_btn" href="#"></a>
+            </div>
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    <div id="gnb_box"></div>
+
+    <nav>
+      <ul class="gnb">
+        <li><a href="#">원두<span></span></a>
+          <ul class="sub">
+            <li><a href="#">이디야 블렌드</a></li>
+            <li><a href="#">품질</a></li>
+          </ul>
+        </li>
+        <li><a href="#">메뉴<span></span></a>
+          <ul class="sub">
+            <li><a href="#">음료</a></li>
+            <li><a href="#">푸드</a></li>
+            <li><a href="#">MD</a></li>
+          </ul>
+        </li>
+        <li><a href="#">유통제품<span></span></a>
+          <ul class="sub">
+            <li><a href="#">스틱커피</a></li>
+            <li><a href="#">커피믹스</a></li>
+            <li><a href="#">원두커피</a></li>
+            <li><a href="#">RTD커피</a></li>
+            <li><a href="#">스틱 파우더</a></li>
+            <li><a href="#">수출입거래</a></li>
+            <li><a href="#">B2B/특판/대리점 거래</a></li>
+          </ul>
+        </li>
+        <li><a href="#">이디야멤버스<span></span></a>
+          <ul class="sub">
+            <li><a href="#">맴버십안내</a></li>
+            <li><a href="#">서비스안내</a></li>
+          </ul>
+        </li>
+        <li><a href="#">상품권·제휴카드<span></span></a>
+          <ul class="sub">
+            <li><a href="#">제휴카드(하나·신한)</a></li>
+            <li><a href="#">기프트카드</a></li>
+            <li><a href="#">모바일상품권</a></li>
+            <li><a href="#">단체·기업 구매</a></li>
+          </ul>
+        </li>
+        <li><a href="#">브랜드 소식<span></span></a>
+          <ul class="sub">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">이벤트 안내</a></li>
+            <li><a href="#">사회공헌 활동</a></li>
+          </ul>
+        </li>
+        <li><a href="#">고객 지원<span></span></a>
+          <ul class="sub">
+            <li><a href="#">고객의 소리</a></li>
+            <li><a href="#">소비자중심경영(CCM)</a></li>
+            <li><a href="#">제휴·제안</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </nav>
+
+
+
+  </header>
+
+  <section>
+    <ul class="slider">
+      <li><a href="#"><img src="img/img_slide1.jpg" alt="img1"></a></li>
+      <li><a href="#"><img src="img/img_slide2.png" alt="img2"></a></li>
+      <li><a href="#"><img src="img/img_slide3.jpg" alt="img3"></a></li>
+      <li><a href="#"><img src="img/img_slide4.jpg" alt="img4"></a></li>
+      <li><a href="#"><img src="img/img_slide5.jpg" alt="img5"></a></li>
+      <li><a href="#"><img src="img/img_slide6.jpg" alt="img6"></a></li>
+    </ul>
+  </section>
+
+  <div class="mid">
+
+    <h2>
+      <em>Stick Coffee</em>
+      INFORMATION CARD
+    </h2>
+
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <ul class="swiper-slide">
+        <li>
+          <a href="#">
+            <img src="img/main_stick_ame01.png" alt="스틱_아메리카노1">
+            <div class="swiper_txt">
+            <h3>스틱커피 아메리카노</h3>
+            <span>Stick Coffee Original Americano</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/main_stick_ame02.png" alt="스틱_아메리카노2">
+            <div class="swiper_txt">
+            <h3>스틱커피 마일드 아메리카노</h3>
+            <span>Stick Coffee Mild Americano</span>
+            </div>
+        </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/main_stick_ame03.png" alt="스틱_아메리카노3">
+            <div class="swiper_txt">
+            <h3>스틱커피 스페셜 아메리카노</h3>
+            <span>Stick Coffee Special Americano</span>
+          </div>
+        </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/main_stick_ame04.png" alt="스틱_아메리카노4">
+          <div class="swiper_txt">
+            <h3>스틱커피 디카페인 아메리카노</h3>
+            <span>Stick Coffee Decaffeinated Americano</span>
+          </div>
+        </a>
+        </li>
+        
+      </ul>
+
+      <ul class="swiper-slide stic_latte">
+        <li>
+          <a href="#">
+            <img src="img/main_stick_latte01.png" alt="스틱_라떼">
+          <div class="swiper_txt">
+            <h3>스틱커피 카페라떼</h3>
+            <span>Stick Coffee Caffe Latte</span>
+          </div>
+        </a>
+        </li>
+
+        <li>
+          <a href="#"><img src="img/main_stick_latte02.png" alt="스틱_라떼2"></a>
+          <div class="swiper_txt">
+            <h3>스틱커피 바닐라 라떼</h3>
+            <span>Stick Coffee Vanllia Latte</span>
+          </div>
+        </li>
+
+        <li>
+          <a href="#"><img src="img/main_stick_latte03.png" alt="스틱_라떼3"></a>
+          <div class="swiper_txt">
+            <h3>스틱커피 토피 넛 라떼</h3>
+            <span>Stick Coffee Toffee Nut Latte</span>
+          </div>
+        </li>
+
+        
+      </ul>
+
+      <ul class="swiper-slide mix_latte">
+        <li>
+          <a href="#">
+            <img src="img/main_stick_mix01.png" alt="스틱_라떼">
+          <div class="swiper_txt">
+            <h3>모카블렌드 커피믹스</h3>
+            <span>Mocha Blend Coffe Mix</span>
+          </div>
+        </a>
+        </li>
+
+        <li>
+          <a href="#"><img src="img/main_stick_mix02.png" alt="스틱_라떼2"></a>
+          <div class="swiper_txt">
+            <h3>골드블렌드 커피믹스</h3>
+            <span>Gold Blend Coffe Mix</span>
+          </div>
+        </li>
+      
+      </ul>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </div>
+  
+  <div class="dream_factory">
+    <div class="factory_con">
+      <div class="factory_img_txt">
+        <em>DREAM FACTORY</em>
+        <img src="img/dream_factory_txt.png" alt="FACTORY">
+      </div>
+        <div class="txt_box_ftr">
+        <div class="ftr_txt">
+          <h2> EDIYA COFFEE</h2>
+        <p>
+          최첨단 시설에서 탄생하는 고품질의 원두로
+          <span>최고의 커피맛을 고객들에게 제공합니다.</span>
+        </p>
+      </div>
+      <div class="df_btn">
+        <a href="#">드림 팩토리</a>
+        <a href="#">드림 물류센터</a>
+      </div>
+    </div>
+    </div>
+    <div class="factory_img">
+      <img src="img/dream_factory.png"  alt="드림팩토리">
+    </div>
+  </div>
+
+  <div class="main_block">
+    <h2>
+      ALWAYS BESIDE YOU,
+      <em>EDIYA COFFEE</em>
+    </h2>
+    <h3>늘 당신 곁에, 이디야 커피의 다양한 메뉴를 맛보세요</h3>
+    <div class="main_block_btn">
+      <a href="#">메뉴보기</a>
+    </div>
+  </div>
+
+  <div class="company_wrap">
+    <div class="company_con">
+      <div class="company_align">
+        <h2>고객과 가맹점주, 협력사의 <br>
+            상생의 가치를 실천합니다.
+        </h2>
+        <p>
+          해외에 로열티를 내지 않는 순수한 국내브랜드로
+          <span>품질좋고 맛있는 정직한 커피를 제공합니다.</span>
+        </p>
+        <div class="company_btn">
+          <a href="#">창업안내</a>
+          <a href="#">창업설명회 안내</a>
+          <a href="#">브랜드소개</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main_bottom">
+    <div class="mb_b1 mb_banner">
+      <a href="#"></a>
+      <h2>가맹점 개설 안내</h2>
+      <p>성공 창업을 위한 선택</p>
+    </div>
+
+    <div class="mb_b2 mb_banner">
+      <h2>매장찾기</h2>
+      <p>
+        <span>가까운 이디야 매장을 <br>확인해보세요.</span>
+      </p>
+      <div class="store_search">
+        <input type="text" class="txt_bar" placeholder="FIND A STORE"> 
+      </div>
+    </div>
+
+    <div class="mb_b3">
+
+      <div class="main_news">
+
+        <h2>NEWS</h2>
+        
+        <div class="more_btn">
+          <a href="#"><img src="img/main_news_more.png" alt="more"></a>
+        </div>
+
+        <ul>
+          <li><a href="#">[스포츠동아]"새로운 커피 경험" 이디야커피,￥...</a><span>2024.06.17</span></li>
+          <li><a href="#">[이데일리]"가맹점주와 임직원이 함께"...</a><span>2024.06.07</span></li>
+          <li><a href="#">[SBS biz]이디야커피, '우유생크림·초코&...</a><span>2024.06.07</span></li>
+        </ul>
+      </div>
+
+      <div class="main_brochure">
+        <a href="#"></a>
+        <h2>브로슈어 다운받기</h2>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+
+    <ul class="bottom_util">
+      <li><a href="#">영상정보처리기기 운영·관리방침</a></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">멤버스 이용약관</a></li>
+      <li><a href="#">가맹 안내</a></li>
+      <li><a href="#">Sitemap</a></li>
+      <li><a href="#">점주의 방</a></li>
+    </ul>
+
+    <div class="bottom_ccm">
+      <span><img src="img/footer_ccm.png" alt="ccm"></span>
+    </div>
+
+    <div class="bottom_logo">
+      <img src="img/bottom_logo.gif" width="210" height="20" alt="footer_logo">
+    </div>
+
+    <p class="copy_info">
+      <span>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동221-17)</span>
+      <span>TEL : 02-543-6467</span> FAX : 02-543-7191
+      <span>사업자등록번호 : 107-86-16302</span>
+      <span>통신판매업 신고 : 강남 제 002519호</span> 대표이사 : 김상수
+    </p>
+
+    <p class="copy">
+      ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED..
+    </p>
+  </footer>
+</body>
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  speed: 800,
+  centeredSlides: false,
+  slidesPerView: 1, // 한 번에 표시할 슬라이드 수
+  autoplay: { delay: 4000, disableOnInteraction: false },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+
+});
+</script>
+</html>
